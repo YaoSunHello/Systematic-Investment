@@ -1,0 +1,154 @@
+{
+  "grid": [
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 81.4271873388922,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 86.64155841061118,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 92.76910336461951,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 100.07272395825096,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 108.92695366802458,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 75.64249973146443,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 80.0516150782549,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 85.17071434126498,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 91.18630288045661,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 98.35647897339788,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 70.61004460506588,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 74.37751051684363,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 78.70643317824513,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 83.73242661743677,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 89.63860404777543,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 66.19234617592983,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 69.44102972885396,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 73.14028338268042,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 77.39082827076012,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 82.32582304693427,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 62.28349655153064,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 65.10737204633025,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 68.29750124457185,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 71.93007945679925,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 76.10401241610349,
+      "recommendation": "Buy"
+    }
+  ]
+}

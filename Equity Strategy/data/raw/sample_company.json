@@ -1,0 +1,105 @@
+{
+  "company": {
+    "company_name": "Example Quality Compounder plc",
+    "ticker": "EXM",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "sector": "Technology",
+    "company_type": "Mature quality compounder",
+    "is_cyclical": false,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": false,
+    "data_sources": {
+      "financial_statements": "Company annual reports, public filings",
+      "market_data": "Public exchange and financial data provider placeholders",
+      "risk_free_rate": "10-year government bond yield placeholder",
+      "equity_risk_premium": "Published market assumption placeholder"
+    }
+  },
+  "history": [
+    {
+      "year": 2021,
+      "revenue": 8200,
+      "ebit": 1804,
+      "tax_expense": 330,
+      "pretax_income": 1650,
+      "depreciation_amortisation": 410,
+      "capex": 490,
+      "net_working_capital": 740,
+      "debt": 1600,
+      "cash": 900,
+      "diluted_shares": 520
+    },
+    {
+      "year": 2022,
+      "revenue": 9020,
+      "ebit": 2075,
+      "tax_expense": 399,
+      "pretax_income": 1898,
+      "depreciation_amortisation": 451,
+      "capex": 541,
+      "net_working_capital": 812,
+      "debt": 1550,
+      "cash": 980,
+      "diluted_shares": 510
+    },
+    {
+      "year": 2023,
+      "revenue": 9651,
+      "ebit": 2316,
+      "tax_expense": 448,
+      "pretax_income": 2134,
+      "depreciation_amortisation": 483,
+      "capex": 579,
+      "net_working_capital": 869,
+      "debt": 1480,
+      "cash": 1060,
+      "diluted_shares": 500
+    },
+    {
+      "year": 2024,
+      "revenue": 10327,
+      "ebit": 2582,
+      "tax_expense": 511,
+      "pretax_income": 2432,
+      "depreciation_amortisation": 516,
+      "capex": 620,
+      "net_working_capital": 930,
+      "debt": 1410,
+      "cash": 1140,
+      "diluted_shares": 492
+    },
+    {
+      "year": 2025,
+      "revenue": 11050,
+      "ebit": 2873,
+      "tax_expense": 571,
+      "pretax_income": 2719,
+      "depreciation_amortisation": 553,
+      "capex": 663,
+      "net_working_capital": 995,
+      "debt": 1360,
+      "cash": 1240,
+      "diluted_shares": 486
+    }
+  ],
+  "market": {
+    "current_share_price": 54.00,
+    "beta": 1.05,
+    "risk_free_rate": 0.042,
+    "equity_risk_premium": 0.05,
+    "pre_tax_cost_of_debt": 0.058,
+    "marginal_tax_rate": 0.21
+  },
+  "assumptions": {
+    "forecast_years": 5,
+    "revenue_growth": [0.07, 0.065, 0.06, 0.055, 0.05],
+    "ebit_margin": [0.262, 0.264, 0.265, 0.266, 0.266],
+    "tax_rate": 0.21,
+    "depreciation_amortisation_to_sales": 0.05,
+    "capex_to_sales": 0.06,
+    "nwc_to_sales": 0.09,
+    "terminal_growth_rate": 0.025
+  }
+}
+

@@ -1,0 +1,22 @@
+recommendation_thresholds:
+  buy: 0.20
+  moderate_buy: 0.05
+  hold_lower: -0.05
+  reduce_lower: -0.20
+
+confidence_adjusted_buy_thresholds:
+  high: 0.15
+  medium: 0.25
+  low: 0.35
+
+terminal_value_flags:
+  medium: 0.75
+  high: 0.85
+
+stress_shocks:
+  recession:
+    revenue_growth_delta: -0.05
+    ebit_margin_delta: -0.03
+    wacc_delta: 0.015
+    terminal_growth_delta: -0.005
+

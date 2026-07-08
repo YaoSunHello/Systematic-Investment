@@ -1,0 +1,105 @@
+{
+  "company": {
+    "company_name": "Example Quality Compounder plc",
+    "ticker": "EXM",
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "sector": "Technology",
+    "company_type": "Mature quality compounder",
+    "is_cyclical": false,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": false,
+    "data_sources": {
+      "financial_statements": "Company annual reports, public filings",
+      "market_data": "Public exchange and financial data provider placeholders",
+      "risk_free_rate": "10-year government bond yield placeholder",
+      "equity_risk_premium": "Published market assumption placeholder"
+    }
+  },
+  "summary": {
+    "valuation_method": "FCFF DCF",
+    "current_share_price": 54.0,
+    "fair_value_per_share": 78.706433,
+    "valuation_gap": 0.457527,
+    "recommendation": "Buy",
+    "confidence_score": 90,
+    "confidence_level": "High"
+  },
+  "valuation_breakdown": {
+    "pv_explicit_fcff": 9897.099374,
+    "pv_terminal_value": 28474.22715,
+    "enterprise_value": 38371.326525,
+    "equity_value": 38251.326525,
+    "terminal_value_to_ev": 0.74207
+  },
+  "wacc": {
+    "cost_of_equity": 0.0945,
+    "after_tax_cost_of_debt": 0.04582,
+    "equity_weight": 0.950732,
+    "debt_weight": 0.049268,
+    "wacc": 0.092102
+  },
+  "forecast": [
+    {
+      "year": 2026,
+      "revenue": 11823.5,
+      "ebit": 3097.757,
+      "nopat": 2447.22803,
+      "depreciation_amortisation": 591.175,
+      "capex": 709.41,
+      "net_working_capital": 1064.115,
+      "change_in_nwc": 69.115,
+      "fcff": 2259.87803
+    },
+    {
+      "year": 2027,
+      "revenue": 12592.0275,
+      "ebit": 3324.29526,
+      "nopat": 2626.193255,
+      "depreciation_amortisation": 629.601375,
+      "capex": 755.52165,
+      "net_working_capital": 1133.282475,
+      "change_in_nwc": 69.167475,
+      "fcff": 2431.105505
+    },
+    {
+      "year": 2028,
+      "revenue": 13347.54915,
+      "ebit": 3537.100525,
+      "nopat": 2794.309415,
+      "depreciation_amortisation": 667.377458,
+      "capex": 800.852949,
+      "net_working_capital": 1201.279424,
+      "change_in_nwc": 67.996949,
+      "fcff": 2592.836975
+    },
+    {
+      "year": 2029,
+      "revenue": 14081.664353,
+      "ebit": 3745.722718,
+      "nopat": 2959.120947,
+      "depreciation_amortisation": 704.083218,
+      "capex": 844.899861,
+      "net_working_capital": 1267.349792,
+      "change_in_nwc": 66.070368,
+      "fcff": 2752.233935
+    },
+    {
+      "year": 2030,
+      "revenue": 14785.747571,
+      "ebit": 3933.008854,
+      "nopat": 3107.076995,
+      "depreciation_amortisation": 739.287379,
+      "capex": 887.144854,
+      "net_working_capital": 1330.717281,
+      "change_in_nwc": 63.36749,
+      "fcff": 2895.852029
+    }
+  ],
+  "limitations": [
+    "Terminal value represents 74.2% of enterprise value, so WACC and terminal growth are key model drivers.",
+    "The framework uses public data and analyst assumptions; it is a decision-support model, not investment advice."
+  ],
+  "flags": [],
+  "data_quality_flags": []
+}
