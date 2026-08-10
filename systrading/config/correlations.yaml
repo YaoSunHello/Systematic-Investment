@@ -1,0 +1,28 @@
+instrument_return_rules_of_thumb:
+  cross_super_class: 0.1
+  equity_to_vol: 0.6
+  within_region_same_class: 0.75
+  same_industry_different_firm: 0.80
+  commodities_same_subclass: 0.70
+forecast_rules_of_thumb:
+  adjacent_ewmac: 0.90
+  same_rule_variations: 0.70
+  different_rules_same_style: 0.50
+  different_styles: 0.25
+bond_duration:
+  tenors: [2, 5, 10, 20, 30]
+  corr:
+    - [1.00, 0.80, 0.70, 0.60, 0.50]
+    - [0.80, 1.00, 0.80, 0.70, 0.60]
+    - [0.70, 0.80, 1.00, 0.80, 0.70]
+    - [0.60, 0.70, 0.80, 1.00, 0.80]
+    - [0.50, 0.60, 0.70, 0.80, 1.00]
+handcraft_table8_three_asset_patterns:
+  "0.0,0.5,0.0": [0.30, 0.40, 0.30]
+  "0.0,0.9,0.0": [0.27, 0.46, 0.27]
+  "0.5,0.0,0.5": [0.37, 0.26, 0.37]
+  "0.0,0.5,0.9": [0.45, 0.45, 0.10]
+  "0.9,0.0,0.9": [0.39, 0.22, 0.39]
+  "0.5,0.9,0.5": [0.29, 0.42, 0.29]
+  "0.9,0.5,0.9": [0.42, 0.16, 0.42]
+

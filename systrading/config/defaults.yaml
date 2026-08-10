@@ -1,0 +1,38 @@
+forecast:
+  target_abs_value: 10
+  cap: 20
+  ewmac:
+    pairs: [[2, 8], [4, 16], [8, 32], [16, 64], [32, 128], [64, 256]]
+    forecast_scalars:
+      "2,8": 10.6
+      "4,16": 7.5
+      "8,32": 5.3
+      "16,64": 3.75
+      "32,128": 2.65
+      "64,256": 1.87
+  carry:
+    forecast_scalar: 30
+    update_frequency: weekly
+    turnover_rule_of_thumb: 10
+volatility:
+  method: ewma
+  sma_lookback_days: 25
+  ewma_lookback_days: 36
+  business_days_per_year: 256
+  annualisation_factor: 16
+diversification:
+  max_multiplier: 2.5
+  floor_correlations_at_zero: true
+  subsystem_corr_scale_dynamic: 0.70
+  subsystem_corr_scale_static: 1.00
+voltarget:
+  percentage_vol_target: 0.25
+portfolio:
+  position_inertia_pct: 0.10
+costs:
+  speed_limit_sr:
+    staunch: 0.13
+    asset_allocator: 0.08
+    semi_auto: 0.08
+  min_max_position_blocks: 4
+
