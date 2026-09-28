@@ -1,0 +1,119 @@
+{
+  "company": {
+    "company_name": "Seagate Technology Holdings plc",
+    "ticker": "STX",
+    "exchange": "NASDAQ-GS",
+    "currency": "USD",
+    "sector": "Technology Hardware",
+    "company_type": "Cyclical storage hardware manufacturer",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": false,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0001137789; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationDepletionAndAmortization, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=910.34, after_hours=914.4703, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Momentum/extended setup; base case gives benefit for near-term storage demand but fades toward mid-cycle margins."
+    }
+  },
+  "summary": {
+    "valuation_method": "FCFF DCF",
+    "current_share_price": 910.34,
+    "fair_value_per_share": 117.008855,
+    "valuation_gap": -0.871467,
+    "recommendation": "Sell",
+    "confidence_score": 85,
+    "confidence_level": "High"
+  },
+  "valuation_breakdown": {
+    "pv_explicit_fcff": 9652.184879,
+    "pv_terminal_value": 19842.736573,
+    "enterprise_value": 29494.921451,
+    "equity_value": 25390.921451,
+    "terminal_value_to_ev": 0.672751
+  },
+  "wacc": {
+    "cost_of_equity": 0.101,
+    "after_tax_cost_of_debt": 0.0527,
+    "equity_weight": 0.975338,
+    "debt_weight": 0.024662,
+    "wacc": 0.099809
+  },
+  "forecast": [
+    {
+      "year": 2026,
+      "revenue": 11371.25,
+      "ebit": 2729.1,
+      "nopat": 2319.735,
+      "depreciation_amortisation": 313.75553,
+      "capex": 331.244512,
+      "net_working_capital": 142.504505,
+      "change_in_nwc": 28.504505,
+      "fcff": 2273.741512
+    },
+    {
+      "year": 2027,
+      "revenue": 12963.225,
+      "ebit": 3240.80625,
+      "nopat": 2754.685313,
+      "depreciation_amortisation": 357.681304,
+      "capex": 377.618744,
+      "net_working_capital": 162.455136,
+      "change_in_nwc": 19.950631,
+      "fcff": 2714.797242
+    },
+    {
+      "year": 2028,
+      "revenue": 14000.283,
+      "ebit": 3220.06509,
+      "nopat": 2737.055327,
+      "depreciation_amortisation": 386.295809,
+      "capex": 407.828244,
+      "net_working_capital": 175.451547,
+      "change_in_nwc": 12.996411,
+      "fcff": 2702.52648
+    },
+    {
+      "year": 2029,
+      "revenue": 14560.29432,
+      "ebit": 3057.661807,
+      "nopat": 2599.012536,
+      "depreciation_amortisation": 401.747641,
+      "capex": 424.141374,
+      "net_working_capital": 182.469608,
+      "change_in_nwc": 7.018062,
+      "fcff": 2569.600742
+    },
+    {
+      "year": 2030,
+      "revenue": 14851.500206,
+      "ebit": 2970.300041,
+      "nopat": 2524.755035,
+      "depreciation_amortisation": 409.782594,
+      "capex": 432.624201,
+      "net_working_capital": 186.119001,
+      "change_in_nwc": 3.649392,
+      "fcff": 2498.264036
+    }
+  ],
+  "limitations": [
+    "Terminal value represents 67.3% of enterprise value, so WACC and terminal growth are key model drivers.",
+    "The framework uses public data and analyst assumptions; it is a decision-support model, not investment advice.",
+    "For cyclical companies, current revenue and margins may not represent mid-cycle economics.",
+    "Company is marked cyclical; scenario analysis should be prioritised.",
+    "Revenue growth in 2023 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2023.",
+    "EBIT margin changed by more than 10 percentage points in 2024.",
+    "EBIT margin changed by more than 10 percentage points in 2025."
+  ],
+  "flags": [
+    "Company is marked cyclical; scenario analysis should be prioritised."
+  ],
+  "data_quality_flags": [
+    "Revenue growth in 2023 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2023.",
+    "EBIT margin changed by more than 10 percentage points in 2024.",
+    "EBIT margin changed by more than 10 percentage points in 2025."
+  ]
+}

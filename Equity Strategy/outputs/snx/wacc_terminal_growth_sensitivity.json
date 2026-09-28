@@ -1,0 +1,154 @@
+{
+  "grid": [
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 274.97297307627406,
+      "recommendation": "Moderate Buy / Accumulate"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 288.2387234441184,
+      "recommendation": "Moderate Buy / Accumulate"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 303.3777024492486,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 320.81682388921837,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 341.12339315707635,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 259.1556313552129,
+      "recommendation": "Hold / Fairly Valued"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 270.66312994041397,
+      "recommendation": "Moderate Buy / Accumulate"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 283.6884163285036,
+      "recommendation": "Moderate Buy / Accumulate"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 298.55297594234014,
+      "recommendation": "Moderate Buy / Accumulate"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 315.67598405071544,
+      "recommendation": "Buy"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 245.0922209611786,
+      "recommendation": "Hold / Fairly Valued"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 255.1478320768159,
+      "recommendation": "Hold / Fairly Valued"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 266.4476789299384,
+      "recommendation": "Moderate Buy / Accumulate"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 279.23792524747915,
+      "recommendation": "Moderate Buy / Accumulate"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 293.8342552780102,
+      "recommendation": "Moderate Buy / Accumulate"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 232.5079120964698,
+      "recommendation": "Reduce / Moderate Sell"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 241.35228401900872,
+      "recommendation": "Hold / Fairly Valued"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 251.2272574521997,
+      "recommendation": "Hold / Fairly Valued"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 262.3241153348784,
+      "recommendation": "Hold / Fairly Valued"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 274.8845993409943,
+      "recommendation": "Moderate Buy / Accumulate"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 221.1824018282866,
+      "recommendation": "Reduce / Moderate Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 229.00702861974153,
+      "recommendation": "Reduce / Moderate Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 237.6932317151021,
+      "recommendation": "Reduce / Moderate Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 247.391605500514,
+      "recommendation": "Hold / Fairly Valued"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 258.2900120955218,
+      "recommendation": "Hold / Fairly Valued"
+    }
+  ]
+}

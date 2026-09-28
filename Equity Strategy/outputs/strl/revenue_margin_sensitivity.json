@@ -1,0 +1,58 @@
+{
+  "grid": [
+    {
+      "revenue_growth_delta": -0.02,
+      "ebit_margin_delta": -0.02,
+      "fair_value_per_share": 191.11670687747275,
+      "recommendation": "Sell"
+    },
+    {
+      "revenue_growth_delta": -0.02,
+      "ebit_margin_delta": 0.0,
+      "fair_value_per_share": 215.32946989049861,
+      "recommendation": "Sell"
+    },
+    {
+      "revenue_growth_delta": -0.02,
+      "ebit_margin_delta": 0.02,
+      "fair_value_per_share": 239.54223290352454,
+      "recommendation": "Sell"
+    },
+    {
+      "revenue_growth_delta": 0.0,
+      "ebit_margin_delta": -0.02,
+      "fair_value_per_share": 208.62642965992475,
+      "recommendation": "Sell"
+    },
+    {
+      "revenue_growth_delta": 0.0,
+      "ebit_margin_delta": 0.0,
+      "fair_value_per_share": 234.86159556765395,
+      "recommendation": "Sell"
+    },
+    {
+      "revenue_growth_delta": 0.0,
+      "ebit_margin_delta": 0.02,
+      "fair_value_per_share": 261.0967614753831,
+      "recommendation": "Sell"
+    },
+    {
+      "revenue_growth_delta": 0.02,
+      "ebit_margin_delta": -0.02,
+      "fair_value_per_share": 227.44354682071258,
+      "recommendation": "Sell"
+    },
+    {
+      "revenue_growth_delta": 0.02,
+      "ebit_margin_delta": 0.0,
+      "fair_value_per_share": 255.84186734678602,
+      "recommendation": "Sell"
+    },
+    {
+      "revenue_growth_delta": 0.02,
+      "ebit_margin_delta": 0.02,
+      "fair_value_per_share": 284.24018787285945,
+      "recommendation": "Sell"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "company": {
+    "company_name": "Sterling Infrastructure, Inc.",
+    "ticker": "STRL",
+    "exchange": "NASDAQ-GS",
+    "currency": "USD",
+    "sector": "Engineering and Construction",
+    "company_type": "Infrastructure contractor with data-center site exposure",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": false,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0000874238; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationDepletionAndAmortization, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=682.29, after_hours=682.29, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Diversifier case; data-center site exposure supports above-market growth with margins near recent strong levels."
+    }
+  },
+  "history": [
+    {
+      "year": 2021,
+      "revenue": 1414.374,
+      "ebit": 107.011,
+      "tax_expense": 24.874,
+      "pretax_income": 107.011,
+      "depreciation_amortisation": 34.201,
+      "capex": 46.651,
+      "net_working_capital": 45.359,
+      "debt": 451.88,
+      "cash": 60.945,
+      "diluted_shares": 29.101
+    },
+    {
+      "year": 2022,
+      "revenue": 1769.436,
+      "ebit": 159.87,
+      "tax_expense": 41.707,
+      "pretax_income": 159.87,
+      "depreciation_amortisation": 52.066,
+      "capex": 60.909,
+      "net_working_capital": 1.709,
+      "debt": 431.345,
+      "cash": 181.544,
+      "diluted_shares": 30.564
+    },
+    {
+      "year": 2023,
+      "revenue": 1972.229,
+      "ebit": 205.795,
+      "tax_expense": 47.77,
+      "pretax_income": 205.795,
+      "depreciation_amortisation": 57.403,
+      "capex": 64.379,
+      "net_working_capital": -197.223,
+      "debt": 341.516,
+      "cash": 471.563,
+      "diluted_shares": 31.208
+    },
+    {
+      "year": 2024,
+      "revenue": 2115.756,
+      "ebit": 264.622,
+      "tax_expense": 87.36,
+      "pretax_income": 264.622,
+      "depreciation_amortisation": 68.41,
+      "capex": 80.954,
+      "net_working_capital": -211.576,
+      "debt": 316.321,
+      "cash": 664.195,
+      "diluted_shares": 31.146
+    },
+    {
+      "year": 2025,
+      "revenue": 2490.049,
+      "ebit": 405.916,
+      "tax_expense": 98.752,
+      "pretax_income": 405.916,
+      "depreciation_amortisation": 77.114,
+      "capex": 77.312,
+      "net_working_capital": -249.005,
+      "debt": 291.049,
+      "cash": 390.721,
+      "diluted_shares": 30.947
+    }
+  ],
+  "market": {
+    "current_share_price": 682.29,
+    "beta": 1.2,
+    "risk_free_rate": 0.041,
+    "equity_risk_premium": 0.05,
+    "pre_tax_cost_of_debt": 0.06,
+    "marginal_tax_rate": 0.25,
+    "market_cap": 21114.829
+  },
+  "assumptions": {
+    "forecast_years": 5,
+    "revenue_growth": [
+      0.2,
+      0.16,
+      0.12,
+      0.08,
+      0.05
+    ],
+    "ebit_margin": [
+      0.17,
+      0.175,
+      0.18,
+      0.18,
+      0.175
+    ],
+    "tax_rate": 0.25,
+    "depreciation_amortisation_to_sales": 0.030969,
+    "capex_to_sales": 0.031048,
+    "nwc_to_sales": -0.05,
+    "terminal_growth_rate": 0.03
+  }
+}

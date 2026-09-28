@@ -1,0 +1,112 @@
+{
+  "company": {
+    "company_name": "Concrete Pumping Holdings, Inc.",
+    "ticker": "BBCP",
+    "exchange": "NASDAQ-CM",
+    "currency": "USD",
+    "sector": "Construction Services",
+    "company_type": "Small-cap concrete pumping services company",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": false,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0001703956; values converted to USD millions; revenue tag=Revenues, EBIT tag=OperatingIncomeLoss, D&A tag=Depreciation, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=10.87, after_hours=10.87, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Small-cap diversifier; base case uses modest recovery growth and explicitly penalizes leverage/size risk through WACC and confidence."
+    }
+  },
+  "summary": {
+    "valuation_method": "FCFF DCF",
+    "current_share_price": 10.87,
+    "fair_value_per_share": 2.715533,
+    "valuation_gap": -0.750181,
+    "recommendation": "Sell",
+    "confidence_score": 75,
+    "confidence_level": "High"
+  },
+  "valuation_breakdown": {
+    "pv_explicit_fcff": 127.283505,
+    "pv_terminal_value": 389.284065,
+    "enterprise_value": 516.56757,
+    "equity_value": 143.07057,
+    "terminal_value_to_ev": 0.753598
+  },
+  "wacc": {
+    "cost_of_equity": 0.1035,
+    "after_tax_cost_of_debt": 0.05625,
+    "equity_weight": 0.578138,
+    "debt_weight": 0.421862,
+    "wacc": 0.083567
+  },
+  "forecast": [
+    {
+      "year": 2026,
+      "revenue": 404.65301,
+      "ebit": 44.511831,
+      "nopat": 33.383873,
+      "depreciation_amortisation": 42.957154,
+      "capex": 48.190532,
+      "net_working_capital": 17.175092,
+      "change_in_nwc": 0.500092,
+      "fcff": 27.650404
+    },
+    {
+      "year": 2027,
+      "revenue": 424.885661,
+      "ebit": 48.861851,
+      "nopat": 36.646388,
+      "depreciation_amortisation": 45.105012,
+      "capex": 50.600058,
+      "net_working_capital": 18.033847,
+      "change_in_nwc": 0.858755,
+      "fcff": 30.292587
+    },
+    {
+      "year": 2028,
+      "revenue": 446.129944,
+      "ebit": 53.535593,
+      "nopat": 40.151695,
+      "depreciation_amortisation": 47.360263,
+      "capex": 53.130061,
+      "net_working_capital": 18.935539,
+      "change_in_nwc": 0.901692,
+      "fcff": 33.480204
+    },
+    {
+      "year": 2029,
+      "revenue": 463.975141,
+      "ebit": 55.677017,
+      "nopat": 41.757763,
+      "depreciation_amortisation": 49.254673,
+      "capex": 55.255264,
+      "net_working_capital": 19.692961,
+      "change_in_nwc": 0.757422,
+      "fcff": 34.999751
+    },
+    {
+      "year": 2030,
+      "revenue": 477.894396,
+      "ebit": 57.347327,
+      "nopat": 43.010496,
+      "depreciation_amortisation": 50.732313,
+      "capex": 56.912921,
+      "net_working_capital": 20.28375,
+      "change_in_nwc": 0.590789,
+      "fcff": 36.239099
+    }
+  ],
+  "limitations": [
+    "Terminal value represents 75.4% of enterprise value, so WACC and terminal growth are key model drivers.",
+    "The framework uses public data and analyst assumptions; it is a decision-support model, not investment advice.",
+    "For cyclical companies, current revenue and margins may not represent mid-cycle economics.",
+    "Terminal value is above 75% of enterprise value.",
+    "Company is marked cyclical; scenario analysis should be prioritised."
+  ],
+  "flags": [
+    "Terminal value is above 75% of enterprise value.",
+    "Company is marked cyclical; scenario analysis should be prioritised."
+  ],
+  "data_quality_flags": []
+}

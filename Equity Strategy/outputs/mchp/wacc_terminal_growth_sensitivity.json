@@ -1,0 +1,154 @@
+{
+  "grid": [
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 46.557726815418455,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 49.456009662629704,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 52.7561939834072,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 56.54810453116026,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 60.950488483683344,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 43.09355760823409,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 45.61289982980219,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 48.45894454856022,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 51.69964694105255,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 55.42321277549817,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 40.009037781108276,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 42.21458109202561,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 44.68871882692441,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 47.483697045288864,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 50.66625160584062,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 37.245454831149935,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 39.18854958517445,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 41.35469561602273,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 43.784638210074064,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 46.52969016350837,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 34.75559747965146,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 36.477234961366555,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 38.38577482170975,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 40.51339934163373,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 42.90012921648274,
+      "recommendation": "Sell"
+    }
+  ]
+}

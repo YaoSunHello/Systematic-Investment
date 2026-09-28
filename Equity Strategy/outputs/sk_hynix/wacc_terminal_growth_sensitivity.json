@@ -1,0 +1,154 @@
+{
+  "grid": [
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 78.61193881871377,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 81.97372097944114,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 85.7952939392738,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 90.17791019952946,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.01,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 95.25490710444303,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 74.50343206996702,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 77.43026738688569,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 80.73178331659044,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 84.48484743561903,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": -0.005,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 88.78889710488328,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 70.83329957567577,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 73.3991864855733,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 76.27378690300188,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 79.51638105061784,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.0,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 83.20246465799815,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 67.53459202888438,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 69.79801873113497,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 72.31831595040029,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 75.14184157446347,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.005,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 78.32682255781039,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": -0.01,
+      "fair_value_per_share": 64.55334346128191,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": -0.005,
+      "fair_value_per_share": 66.56111104599451,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.0,
+      "fair_value_per_share": 68.78449989397062,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.005,
+      "fair_value_per_share": 71.26021546511225,
+      "recommendation": "Sell"
+    },
+    {
+      "wacc_delta": 0.01,
+      "terminal_growth_delta": 0.01,
+      "fair_value_per_share": 74.0337956204911,
+      "recommendation": "Sell"
+    }
+  ]
+}

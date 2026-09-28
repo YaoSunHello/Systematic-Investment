@@ -1,0 +1,118 @@
+{
+  "company": {
+    "company_name": "Td Synnex Corp",
+    "ticker": "SNX",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "sector": "Technology Distribution",
+    "company_type": "Technology distributor and solutions aggregator",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": true,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0001177394; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationDepletionAndAmortization, capex tag=PaymentsForProceedsFromOtherInvestingActivities.",
+      "market_data": "Nasdaq quote API, close=251.77, after_hours=251.52, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Best valuation-edge candidate; supplied 43% EPS growth is represented through operating leverage on modest revenue growth."
+    }
+  },
+  "summary": {
+    "valuation_method": "FCFF DCF",
+    "current_share_price": 251.77,
+    "fair_value_per_share": 266.447679,
+    "valuation_gap": 0.058298,
+    "recommendation": "Moderate Buy / Accumulate",
+    "confidence_score": 55,
+    "confidence_level": "Medium"
+  },
+  "valuation_breakdown": {
+    "pv_explicit_fcff": 5733.952922,
+    "pv_terminal_value": 14813.200252,
+    "enterprise_value": 20547.153174,
+    "equity_value": 21963.282174,
+    "terminal_value_to_ev": 0.720937
+  },
+  "wacc": {
+    "cost_of_equity": 0.1035,
+    "after_tax_cost_of_debt": 0.0462,
+    "equity_weight": 0.953186,
+    "debt_weight": 0.046814,
+    "wacc": 0.100818
+  },
+  "forecast": [
+    {
+      "year": 2026,
+      "revenue": 70009.05632,
+      "ebit": 1680.217352,
+      "nopat": 1293.767361,
+      "depreciation_amortisation": 463.950016,
+      "capex": 280.036225,
+      "net_working_capital": 3261.931961,
+      "change_in_nwc": 349.462961,
+      "fcff": 1128.218191
+    },
+    {
+      "year": 2027,
+      "revenue": 77009.961952,
+      "ebit": 1925.249049,
+      "nopat": 1482.441768,
+      "depreciation_amortisation": 510.345018,
+      "capex": 308.039848,
+      "net_working_capital": 3588.125157,
+      "change_in_nwc": 326.193196,
+      "fcff": 1358.553742
+    },
+    {
+      "year": 2028,
+      "revenue": 82400.659289,
+      "ebit": 2142.417142,
+      "nopat": 1649.661199,
+      "depreciation_amortisation": 546.069169,
+      "capex": 329.602637,
+      "net_working_capital": 3839.293918,
+      "change_in_nwc": 251.168761,
+      "fcff": 1614.95897
+    },
+    {
+      "year": 2029,
+      "revenue": 86520.692253,
+      "ebit": 2249.537999,
+      "nopat": 1732.144259,
+      "depreciation_amortisation": 573.372628,
+      "capex": 346.082769,
+      "net_working_capital": 4031.258614,
+      "change_in_nwc": 191.964696,
+      "fcff": 1767.469422
+    },
+    {
+      "year": 2030,
+      "revenue": 89116.313021,
+      "ebit": 2317.024139,
+      "nopat": 1784.108587,
+      "depreciation_amortisation": 590.573806,
+      "capex": 356.465252,
+      "net_working_capital": 4152.196373,
+      "change_in_nwc": 120.937758,
+      "fcff": 1897.279383
+    }
+  ],
+  "limitations": [
+    "Terminal value represents 72.1% of enterprise value, so WACC and terminal growth are key model drivers.",
+    "The framework uses public data and analyst assumptions; it is a decision-support model, not investment advice.",
+    "For cyclical companies, current revenue and margins may not represent mid-cycle economics.",
+    "For platform or technology companies, stock-based compensation, growth capex, and segment economics may require separate treatment.",
+    "Company is marked cyclical; scenario analysis should be prioritised.",
+    "M&A or one-off items may distort historical ratios.",
+    "Revenue growth in 2022 is outside the normal validation range.",
+    "Diluted shares changed by more than 20% in 2022."
+  ],
+  "flags": [
+    "Company is marked cyclical; scenario analysis should be prioritised.",
+    "M&A or one-off items may distort historical ratios."
+  ],
+  "data_quality_flags": [
+    "Revenue growth in 2022 is outside the normal validation range.",
+    "Diluted shares changed by more than 20% in 2022."
+  ]
+}

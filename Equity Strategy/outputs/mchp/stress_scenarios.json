@@ -1,0 +1,32 @@
+{
+  "scenarios": [
+    {
+      "scenario": "base",
+      "fair_value_per_share": 44.68871882692441,
+      "valuation_gap": -0.4955557193032576,
+      "recommendation": "Sell",
+      "confidence_level": "High"
+    },
+    {
+      "scenario": "recession",
+      "fair_value_per_share": 24.433363916078754,
+      "valuation_gap": -0.7241972692620076,
+      "recommendation": "Sell",
+      "confidence_level": "High"
+    },
+    {
+      "scenario": "rates_inflation_shock",
+      "fair_value_per_share": 31.862549627711154,
+      "valuation_gap": -0.6403369496815537,
+      "recommendation": "Sell",
+      "confidence_level": "High"
+    },
+    {
+      "scenario": "company_specific_shock",
+      "fair_value_per_share": 30.454465013203933,
+      "valuation_gap": -0.6562313465040757,
+      "recommendation": "Sell",
+      "confidence_level": "High"
+    }
+  ]
+}

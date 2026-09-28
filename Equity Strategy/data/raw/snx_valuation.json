@@ -1,0 +1,118 @@
+{
+  "company": {
+    "company_name": "Td Synnex Corp",
+    "ticker": "SNX",
+    "exchange": "NYSE",
+    "currency": "USD",
+    "sector": "Technology Distribution",
+    "company_type": "Technology distributor and solutions aggregator",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": true,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0001177394; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationDepletionAndAmortization, capex tag=PaymentsForProceedsFromOtherInvestingActivities.",
+      "market_data": "Nasdaq quote API, close=251.77, after_hours=251.52, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Best valuation-edge candidate; supplied 43% EPS growth is represented through operating leverage on modest revenue growth."
+    }
+  },
+  "history": [
+    {
+      "year": 2021,
+      "revenue": 31614.169,
+      "ebit": 623.218,
+      "tax_expense": 71.416,
+      "pretax_income": 466.485,
+      "depreciation_amortisation": 151.664,
+      "capex": -9.637,
+      "net_working_capital": 2506.716,
+      "debt": 0.0,
+      "cash": 993.973,
+      "diluted_shares": 62.698
+    },
+    {
+      "year": 2022,
+      "revenue": 62343.81,
+      "ebit": 1050.873,
+      "tax_expense": 175.823,
+      "pretax_income": 827.13,
+      "depreciation_amortisation": 463.365,
+      "capex": -1.541,
+      "net_working_capital": 3817.668,
+      "debt": 268.128,
+      "cash": 522.604,
+      "diluted_shares": 95.509
+    },
+    {
+      "year": 2023,
+      "revenue": 57555.416,
+      "ebit": 1078.032,
+      "tax_expense": 162.597,
+      "pretax_income": 789.508,
+      "depreciation_amortisation": 418.315,
+      "capex": 5.848,
+      "net_working_capital": 3295.592,
+      "debt": 983.694,
+      "cash": 1033.776,
+      "diluted_shares": 92.853
+    },
+    {
+      "year": 2024,
+      "revenue": 58452.436,
+      "ebit": 1194.211,
+      "tax_expense": 176.944,
+      "pretax_income": 866.035,
+      "depreciation_amortisation": 407.532,
+      "capex": 3.099,
+      "net_working_capital": 3215.175,
+      "debt": 171.092,
+      "cash": 1059.378,
+      "diluted_shares": 85.874
+    },
+    {
+      "year": 2025,
+      "revenue": 62508.086,
+      "ebit": 1414.919,
+      "tax_expense": 229.594,
+      "pretax_income": 1057.254,
+      "depreciation_amortisation": 414.219,
+      "capex": -5.129,
+      "net_working_capital": 2912.469,
+      "debt": 1019.26,
+      "cash": 2435.389,
+      "diluted_shares": 82.43
+    }
+  ],
+  "market": {
+    "current_share_price": 251.77,
+    "beta": 1.25,
+    "risk_free_rate": 0.041,
+    "equity_risk_premium": 0.05,
+    "pre_tax_cost_of_debt": 0.06,
+    "marginal_tax_rate": 0.23,
+    "market_cap": 20753.401
+  },
+  "assumptions": {
+    "forecast_years": 5,
+    "revenue_growth": [
+      0.12,
+      0.1,
+      0.07,
+      0.05,
+      0.03
+    ],
+    "ebit_margin": [
+      0.024,
+      0.025,
+      0.026,
+      0.026,
+      0.026
+    ],
+    "tax_rate": 0.23,
+    "depreciation_amortisation_to_sales": 0.006627,
+    "capex_to_sales": 0.004,
+    "nwc_to_sales": 0.046593,
+    "terminal_growth_rate": 0.02
+  }
+}

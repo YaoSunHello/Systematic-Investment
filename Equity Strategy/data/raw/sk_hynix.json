@@ -1,0 +1,105 @@
+{
+  "company": {
+    "company_name": "SK hynix Inc.",
+    "ticker": "SKHYV",
+    "exchange": "NASDAQ Global Select Market",
+    "currency": "USD per ADR",
+    "sector": "Semiconductors",
+    "company_type": "Cyclical AI memory semiconductor manufacturer",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": true,
+    "data_sources": {
+      "financial_statements": "Published annual trend data and 2025 results summaries; financials entered in USD billions.",
+      "market_data": "July 10, 2026 SK Hynix ADR debut reports; 10 ADRs represent one common share.",
+      "risk_free_rate": "Approximate current USD 10-year Treasury assumption.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption.",
+      "forecast_basis": "Base case anchored to Q1 2026 run-rate, AI/HBM demand commentary, and moderation after 2026."
+    }
+  },
+  "history": [
+    {
+      "year": 2021,
+      "revenue": 37.04,
+      "ebit": 11.70,
+      "tax_expense": 2.20,
+      "pretax_income": 10.90,
+      "depreciation_amortisation": 7.40,
+      "capex": 11.50,
+      "net_working_capital": 3.70,
+      "debt": 14.00,
+      "cash": 4.00,
+      "diluted_shares": 7.28
+    },
+    {
+      "year": 2022,
+      "revenue": 34.44,
+      "ebit": 3.44,
+      "tax_expense": 0.60,
+      "pretax_income": 2.90,
+      "depreciation_amortisation": 8.00,
+      "capex": 14.00,
+      "net_working_capital": 4.10,
+      "debt": 17.00,
+      "cash": 5.00,
+      "diluted_shares": 7.28
+    },
+    {
+      "year": 2023,
+      "revenue": 24.89,
+      "ebit": -7.75,
+      "tax_expense": -1.40,
+      "pretax_income": -8.20,
+      "depreciation_amortisation": 9.20,
+      "capex": 9.00,
+      "net_working_capital": 2.20,
+      "debt": 22.00,
+      "cash": 7.00,
+      "diluted_shares": 7.28
+    },
+    {
+      "year": 2024,
+      "revenue": 47.96,
+      "ebit": 18.16,
+      "tax_expense": 3.50,
+      "pretax_income": 16.80,
+      "depreciation_amortisation": 10.20,
+      "capex": 15.00,
+      "net_working_capital": 4.80,
+      "debt": 25.00,
+      "cash": 12.00,
+      "diluted_shares": 7.28
+    },
+    {
+      "year": 2025,
+      "revenue": 68.72,
+      "ebit": 36.25,
+      "tax_expense": 7.20,
+      "pretax_income": 34.80,
+      "depreciation_amortisation": 11.00,
+      "capex": 18.00,
+      "net_working_capital": 5.50,
+      "debt": 25.00,
+      "cash": 54.50,
+      "diluted_shares": 7.458
+    }
+  ],
+  "market": {
+    "current_share_price": 170.00,
+    "beta": 1.45,
+    "risk_free_rate": 0.042,
+    "equity_risk_premium": 0.050,
+    "pre_tax_cost_of_debt": 0.055,
+    "marginal_tax_rate": 0.22
+  },
+  "assumptions": {
+    "forecast_years": 5,
+    "revenue_growth": [1.05, 0.30, 0.12, 0.06, 0.03],
+    "ebit_margin": [0.62, 0.56, 0.50, 0.45, 0.42],
+    "tax_rate": 0.22,
+    "depreciation_amortisation_to_sales": 0.15,
+    "capex_to_sales": 0.26,
+    "nwc_to_sales": 0.08,
+    "terminal_growth_rate": 0.03
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "company": {
+    "company_name": "Concrete Pumping Holdings, Inc.",
+    "ticker": "BBCP",
+    "exchange": "NASDAQ-CM",
+    "currency": "USD",
+    "sector": "Construction Services",
+    "company_type": "Small-cap concrete pumping services company",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": false,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0001703956; values converted to USD millions; revenue tag=Revenues, EBIT tag=OperatingIncomeLoss, D&A tag=Depreciation, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=10.87, after_hours=10.87, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Small-cap diversifier; base case uses modest recovery growth and explicitly penalizes leverage/size risk through WACC and confidence."
+    }
+  },
+  "history": [
+    {
+      "year": 2021,
+      "revenue": 315.808,
+      "ebit": 38.046,
+      "tax_expense": 2.642,
+      "pretax_income": -12.431,
+      "depreciation_amortisation": 28.8,
+      "capex": 62.792,
+      "net_working_capital": 10.185,
+      "debt": 369.187,
+      "cash": 9.298,
+      "diluted_shares": 53.414
+    },
+    {
+      "year": 2022,
+      "revenue": 401.292,
+      "ebit": 50.111,
+      "tax_expense": 5.526,
+      "pretax_income": 34.202,
+      "depreciation_amortisation": 34.934,
+      "capex": 101.932,
+      "net_working_capital": -36.097,
+      "debt": 370.585,
+      "cash": 7.482,
+      "diluted_shares": 54.851
+    },
+    {
+      "year": 2023,
+      "revenue": 442.241,
+      "ebit": 61.452,
+      "tax_expense": 8.772,
+      "pretax_income": 40.562,
+      "depreciation_amortisation": 39.756,
+      "capex": 54.505,
+      "net_working_capital": -5.442,
+      "debt": 371.993,
+      "cash": 15.861,
+      "diluted_shares": 54.174
+    },
+    {
+      "year": 2024,
+      "revenue": 425.872,
+      "ebit": 49.347,
+      "tax_expense": 8.104,
+      "pretax_income": 24.311,
+      "depreciation_amortisation": 41.969,
+      "capex": 43.81,
+      "net_working_capital": 12.988,
+      "debt": 373.26,
+      "cash": 43.041,
+      "diluted_shares": 54.238
+    },
+    {
+      "year": 2025,
+      "revenue": 392.867,
+      "ebit": 41.531,
+      "tax_expense": 3.679,
+      "pretax_income": 10.052,
+      "depreciation_amortisation": 41.706,
+      "capex": 46.787,
+      "net_working_capital": 16.675,
+      "debt": 417.891,
+      "cash": 44.394,
+      "diluted_shares": 52.686
+    }
+  ],
+  "market": {
+    "current_share_price": 10.87,
+    "beta": 1.25,
+    "risk_free_rate": 0.041,
+    "equity_risk_premium": 0.05,
+    "pre_tax_cost_of_debt": 0.075,
+    "marginal_tax_rate": 0.25,
+    "market_cap": 572.697
+  },
+  "assumptions": {
+    "forecast_years": 5,
+    "revenue_growth": [
+      0.03,
+      0.05,
+      0.05,
+      0.04,
+      0.03
+    ],
+    "ebit_margin": [
+      0.11,
+      0.115,
+      0.12,
+      0.12,
+      0.12
+    ],
+    "tax_rate": 0.25,
+    "depreciation_amortisation_to_sales": 0.106158,
+    "capex_to_sales": 0.119091,
+    "nwc_to_sales": 0.042444,
+    "terminal_growth_rate": 0.02
+  }
+}

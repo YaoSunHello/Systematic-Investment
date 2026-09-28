@@ -1,0 +1,118 @@
+{
+  "company": {
+    "company_name": "Micron Technology Inc",
+    "ticker": "MU",
+    "exchange": "NASDAQ-GS",
+    "currency": "USD",
+    "sector": "Semiconductors",
+    "company_type": "Cyclical AI memory semiconductor manufacturer",
+    "is_cyclical": true,
+    "high_share_based_compensation": true,
+    "material_mna_or_one_offs": true,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0000723125; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationDepletionAndAmortization, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=979.3, after_hours=980.1, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Benchmark memory pick; base case reflects AI/HBM cycle strength and normalization after the first two forecast years."
+    }
+  },
+  "history": [
+    {
+      "year": 2021,
+      "revenue": 27705.0,
+      "ebit": 6283.0,
+      "tax_expense": 394.0,
+      "pretax_income": 6218.0,
+      "depreciation_amortisation": 6214.0,
+      "capex": 10030.0,
+      "net_working_capital": 5875.0,
+      "debt": 804.0,
+      "cash": 7763.0,
+      "diluted_shares": 1141.0
+    },
+    {
+      "year": 2022,
+      "revenue": 30758.0,
+      "ebit": 9702.0,
+      "tax_expense": 888.0,
+      "pretax_income": 9571.0,
+      "depreciation_amortisation": 7116.0,
+      "capex": 12067.0,
+      "net_working_capital": 6083.0,
+      "debt": 886.0,
+      "cash": 8262.0,
+      "diluted_shares": 1122.0
+    },
+    {
+      "year": 2023,
+      "revenue": 15540.0,
+      "ebit": -5745.0,
+      "tax_expense": 177.0,
+      "pretax_income": -5658.0,
+      "depreciation_amortisation": 7756.0,
+      "capex": 7676.0,
+      "net_working_capital": 6216.0,
+      "debt": 1281.0,
+      "cash": 8577.0,
+      "diluted_shares": 1093.0
+    },
+    {
+      "year": 2024,
+      "revenue": 25111.0,
+      "ebit": 1304.0,
+      "tax_expense": 451.0,
+      "pretax_income": 1240.0,
+      "depreciation_amortisation": 7780.0,
+      "capex": 8386.0,
+      "net_working_capital": 8408.0,
+      "debt": 2054.0,
+      "cash": 7041.0,
+      "diluted_shares": 1118.0
+    },
+    {
+      "year": 2025,
+      "revenue": 37378.0,
+      "ebit": 9770.0,
+      "tax_expense": 1124.0,
+      "pretax_income": 9654.0,
+      "depreciation_amortisation": 8352.0,
+      "capex": 15857.0,
+      "net_working_capital": 8305.0,
+      "debt": 3044.0,
+      "cash": 9642.0,
+      "diluted_shares": 1125.0
+    }
+  ],
+  "market": {
+    "current_share_price": 979.3,
+    "beta": 1.35,
+    "risk_free_rate": 0.041,
+    "equity_risk_premium": 0.05,
+    "pre_tax_cost_of_debt": 0.058,
+    "marginal_tax_rate": 0.21,
+    "market_cap": 1101712.5
+  },
+  "assumptions": {
+    "forecast_years": 5,
+    "revenue_growth": [
+      0.45,
+      0.25,
+      0.12,
+      0.05,
+      0.03
+    ],
+    "ebit_margin": [
+      0.38,
+      0.4,
+      0.36,
+      0.32,
+      0.3
+    ],
+    "tax_rate": 0.21,
+    "depreciation_amortisation_to_sales": 0.223447,
+    "capex_to_sales": 0.424234,
+    "nwc_to_sales": 0.15,
+    "terminal_growth_rate": 0.03
+  }
+}

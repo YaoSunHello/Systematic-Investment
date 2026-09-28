@@ -1,0 +1,125 @@
+{
+  "company": {
+    "company_name": "Micron Technology Inc",
+    "ticker": "MU",
+    "exchange": "NASDAQ-GS",
+    "currency": "USD",
+    "sector": "Semiconductors",
+    "company_type": "Cyclical AI memory semiconductor manufacturer",
+    "is_cyclical": true,
+    "high_share_based_compensation": true,
+    "material_mna_or_one_offs": true,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0000723125; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationDepletionAndAmortization, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=979.3, after_hours=980.1, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Benchmark memory pick; base case reflects AI/HBM cycle strength and normalization after the first two forecast years."
+    }
+  },
+  "summary": {
+    "valuation_method": "FCFF DCF",
+    "current_share_price": 979.3,
+    "fair_value_per_share": 39.609056,
+    "valuation_gap": -0.959554,
+    "recommendation": "Sell",
+    "confidence_score": 35,
+    "confidence_level": "Low"
+  },
+  "valuation_breakdown": {
+    "pv_explicit_fcff": 17415.060561,
+    "pv_terminal_value": 20547.127786,
+    "enterprise_value": 37962.188348,
+    "equity_value": 44560.188348,
+    "terminal_value_to_ev": 0.541252
+  },
+  "wacc": {
+    "cost_of_equity": 0.1085,
+    "after_tax_cost_of_debt": 0.04582,
+    "equity_weight": 0.997245,
+    "debt_weight": 0.002755,
+    "wacc": 0.108327
+  },
+  "forecast": [
+    {
+      "year": 2026,
+      "revenue": 54198.1,
+      "ebit": 20595.278,
+      "nopat": 16270.26962,
+      "depreciation_amortisation": 12110.402851,
+      "capex": 22992.676755,
+      "net_working_capital": 8129.715,
+      "change_in_nwc": -175.285,
+      "fcff": 5563.280715
+    },
+    {
+      "year": 2027,
+      "revenue": 67747.625,
+      "ebit": 27099.05,
+      "nopat": 21408.2495,
+      "depreciation_amortisation": 15138.003563,
+      "capex": 28740.845944,
+      "net_working_capital": 10162.14375,
+      "change_in_nwc": 2032.42875,
+      "fcff": 5772.978369
+    },
+    {
+      "year": 2028,
+      "revenue": 75877.34,
+      "ebit": 27315.8424,
+      "nopat": 21579.515496,
+      "depreciation_amortisation": 16954.563991,
+      "capex": 32189.747458,
+      "net_working_capital": 11381.601,
+      "change_in_nwc": 1219.45725,
+      "fcff": 5124.874779
+    },
+    {
+      "year": 2029,
+      "revenue": 79671.207,
+      "ebit": 25494.78624,
+      "nopat": 20140.88113,
+      "depreciation_amortisation": 17802.292191,
+      "capex": 33799.23483,
+      "net_working_capital": 11950.68105,
+      "change_in_nwc": 569.08005,
+      "fcff": 3574.85844
+    },
+    {
+      "year": 2030,
+      "revenue": 82061.34321,
+      "ebit": 24618.402963,
+      "nopat": 19448.538341,
+      "depreciation_amortisation": 18336.360956,
+      "capex": 34813.211875,
+      "net_working_capital": 12309.201482,
+      "change_in_nwc": 358.520431,
+      "fcff": 2613.16699
+    }
+  ],
+  "limitations": [
+    "Terminal value represents 54.1% of enterprise value, so WACC and terminal growth are key model drivers.",
+    "The framework uses public data and analyst assumptions; it is a decision-support model, not investment advice.",
+    "For cyclical companies, current revenue and margins may not represent mid-cycle economics.",
+    "Company is marked cyclical; scenario analysis should be prioritised.",
+    "Stock-based compensation is material and should be reviewed separately.",
+    "M&A or one-off items may distort historical ratios.",
+    "Revenue growth in 2023 is outside the normal validation range.",
+    "Revenue growth in 2024 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2023.",
+    "EBIT margin changed by more than 10 percentage points in 2024.",
+    "EBIT margin changed by more than 10 percentage points in 2025."
+  ],
+  "flags": [
+    "Company is marked cyclical; scenario analysis should be prioritised.",
+    "Stock-based compensation is material and should be reviewed separately.",
+    "M&A or one-off items may distort historical ratios."
+  ],
+  "data_quality_flags": [
+    "Revenue growth in 2023 is outside the normal validation range.",
+    "Revenue growth in 2024 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2023.",
+    "EBIT margin changed by more than 10 percentage points in 2024.",
+    "EBIT margin changed by more than 10 percentage points in 2025."
+  ]
+}

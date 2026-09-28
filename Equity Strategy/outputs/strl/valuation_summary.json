@@ -1,0 +1,110 @@
+{
+  "company": {
+    "company_name": "Sterling Infrastructure, Inc.",
+    "ticker": "STRL",
+    "exchange": "NASDAQ-GS",
+    "currency": "USD",
+    "sector": "Engineering and Construction",
+    "company_type": "Infrastructure contractor with data-center site exposure",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": false,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0000874238; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationDepletionAndAmortization, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=682.29, after_hours=682.29, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Diversifier case; data-center site exposure supports above-market growth with margins near recent strong levels."
+    }
+  },
+  "summary": {
+    "valuation_method": "FCFF DCF",
+    "current_share_price": 682.29,
+    "fair_value_per_share": 234.861596,
+    "valuation_gap": -0.655775,
+    "recommendation": "Sell",
+    "confidence_score": 75,
+    "confidence_level": "High"
+  },
+  "valuation_breakdown": {
+    "pv_explicit_fcff": 1821.031153,
+    "pv_terminal_value": 5347.558645,
+    "enterprise_value": 7168.589798,
+    "equity_value": 7268.261798,
+    "terminal_value_to_ev": 0.745971
+  },
+  "wacc": {
+    "cost_of_equity": 0.101,
+    "after_tax_cost_of_debt": 0.045,
+    "equity_weight": 0.986403,
+    "debt_weight": 0.013597,
+    "wacc": 0.100239
+  },
+  "forecast": [
+    {
+      "year": 2026,
+      "revenue": 2988.0588,
+      "ebit": 507.969996,
+      "nopat": 380.977497,
+      "depreciation_amortisation": 92.537193,
+      "capex": 92.77325,
+      "net_working_capital": -149.40294,
+      "change_in_nwc": 99.60206,
+      "fcff": 281.13938
+    },
+    {
+      "year": 2027,
+      "revenue": 3466.148208,
+      "ebit": 606.575936,
+      "nopat": 454.931952,
+      "depreciation_amortisation": 107.343144,
+      "capex": 107.61697,
+      "net_working_capital": -173.30741,
+      "change_in_nwc": -23.90447,
+      "fcff": 478.562597
+    },
+    {
+      "year": 2028,
+      "revenue": 3882.085993,
+      "ebit": 698.775479,
+      "nopat": 524.081609,
+      "depreciation_amortisation": 120.224321,
+      "capex": 120.531006,
+      "net_working_capital": -194.1043,
+      "change_in_nwc": -20.796889,
+      "fcff": 544.571814
+    },
+    {
+      "year": 2029,
+      "revenue": 4192.652872,
+      "ebit": 754.677517,
+      "nopat": 566.008138,
+      "depreciation_amortisation": 129.842267,
+      "capex": 130.173486,
+      "net_working_capital": -209.632644,
+      "change_in_nwc": -15.528344,
+      "fcff": 581.205262
+    },
+    {
+      "year": 2030,
+      "revenue": 4402.285516,
+      "ebit": 770.399965,
+      "nopat": 577.799974,
+      "depreciation_amortisation": 136.33438,
+      "capex": 136.682161,
+      "net_working_capital": -220.114276,
+      "change_in_nwc": -10.481632,
+      "fcff": 587.933826
+    }
+  ],
+  "limitations": [
+    "Terminal value represents 74.6% of enterprise value, so WACC and terminal growth are key model drivers.",
+    "The framework uses public data and analyst assumptions; it is a decision-support model, not investment advice.",
+    "For cyclical companies, current revenue and margins may not represent mid-cycle economics.",
+    "Company is marked cyclical; scenario analysis should be prioritised."
+  ],
+  "flags": [
+    "Company is marked cyclical; scenario analysis should be prioritised."
+  ],
+  "data_quality_flags": []
+}

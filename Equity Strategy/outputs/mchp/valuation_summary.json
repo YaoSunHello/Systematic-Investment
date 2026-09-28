@@ -1,0 +1,117 @@
+{
+  "company": {
+    "company_name": "Microchip Technology Inc",
+    "ticker": "MCHP",
+    "exchange": "NASDAQ-GS",
+    "currency": "USD",
+    "sector": "Semiconductors",
+    "company_type": "Analog and embedded semiconductor turnaround",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": true,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0000827054; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationDepletionAndAmortization, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=88.59, after_hours=88.82, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Turnaround case with PCIe Gen6/design-win recovery reflected in revenue rebound and gradual margin repair."
+    }
+  },
+  "summary": {
+    "valuation_method": "FCFF DCF",
+    "current_share_price": 88.59,
+    "fair_value_per_share": 44.688719,
+    "valuation_gap": -0.495556,
+    "recommendation": "Sell",
+    "confidence_score": 75,
+    "confidence_level": "High"
+  },
+  "valuation_breakdown": {
+    "pv_explicit_fcff": 7861.81692,
+    "pv_terminal_value": 21758.572584,
+    "enterprise_value": 29620.389504,
+    "equity_value": 24364.289504,
+    "terminal_value_to_ev": 0.734581
+  },
+  "wacc": {
+    "cost_of_equity": 0.1135,
+    "after_tax_cost_of_debt": 0.051,
+    "equity_weight": 0.897828,
+    "debt_weight": 0.102172,
+    "wacc": 0.107114
+  },
+  "forecast": [
+    {
+      "year": 2027,
+      "revenue": 5467.196,
+      "ebit": 929.42332,
+      "nopat": 790.009822,
+      "depreciation_amortisation": 799.588349,
+      "capex": 131.212704,
+      "net_working_capital": 1161.161357,
+      "change_in_nwc": 160.161357,
+      "fcff": 1298.224111
+    },
+    {
+      "year": 2028,
+      "revenue": 6451.29128,
+      "ebit": 1419.284082,
+      "nopat": 1206.391469,
+      "depreciation_amortisation": 943.514252,
+      "capex": 154.830991,
+      "net_working_capital": 1370.170401,
+      "change_in_nwc": 209.009044,
+      "fcff": 1786.065687
+    },
+    {
+      "year": 2029,
+      "revenue": 7225.446234,
+      "ebit": 1878.616021,
+      "nopat": 1596.823618,
+      "depreciation_amortisation": 1056.735963,
+      "capex": 173.41071,
+      "net_working_capital": 1534.590849,
+      "change_in_nwc": 164.420448,
+      "fcff": 2315.728422
+    },
+    {
+      "year": 2030,
+      "revenue": 7731.22747,
+      "ebit": 2164.743692,
+      "nopat": 1840.032138,
+      "depreciation_amortisation": 1130.70748,
+      "capex": 185.549459,
+      "net_working_capital": 1642.012209,
+      "change_in_nwc": 107.421359,
+      "fcff": 2677.768799
+    },
+    {
+      "year": 2031,
+      "revenue": 8040.476569,
+      "ebit": 2331.738205,
+      "nopat": 1981.977474,
+      "depreciation_amortisation": 1175.935779,
+      "capex": 192.971438,
+      "net_working_capital": 1707.692697,
+      "change_in_nwc": 65.680488,
+      "fcff": 2899.261327
+    }
+  ],
+  "limitations": [
+    "Terminal value represents 73.5% of enterprise value, so WACC and terminal growth are key model drivers.",
+    "The framework uses public data and analyst assumptions; it is a decision-support model, not investment advice.",
+    "For cyclical companies, current revenue and margins may not represent mid-cycle economics.",
+    "Company is marked cyclical; scenario analysis should be prioritised.",
+    "M&A or one-off items may distort historical ratios.",
+    "Revenue growth in 2025 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2025."
+  ],
+  "flags": [
+    "Company is marked cyclical; scenario analysis should be prioritised.",
+    "M&A or one-off items may distort historical ratios."
+  ],
+  "data_quality_flags": [
+    "Revenue growth in 2025 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2025."
+  ]
+}

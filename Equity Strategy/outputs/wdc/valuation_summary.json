@@ -1,0 +1,121 @@
+{
+  "company": {
+    "company_name": "Western Digital Corp",
+    "ticker": "WDC",
+    "exchange": "NASDAQ-GS",
+    "currency": "USD",
+    "sector": "Technology Hardware",
+    "company_type": "Cyclical storage and flash memory manufacturer",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": true,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0000106040; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationAndAmortization, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=582.585, after_hours=582.8206, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Base case uses the supplied 38% revenue growth thesis, with EPS leverage represented through margin expansion."
+    }
+  },
+  "summary": {
+    "valuation_method": "FCFF DCF",
+    "current_share_price": 582.585,
+    "fair_value_per_share": 89.275439,
+    "valuation_gap": -0.84676,
+    "recommendation": "Sell",
+    "confidence_score": 45,
+    "confidence_level": "Low"
+  },
+  "valuation_breakdown": {
+    "pv_explicit_fcff": 12529.401905,
+    "pv_terminal_value": 22117.480651,
+    "enterprise_value": 34646.882556,
+    "equity_value": 32049.882556,
+    "terminal_value_to_ev": 0.638369
+  },
+  "wacc": {
+    "cost_of_equity": 0.1185,
+    "after_tax_cost_of_debt": 0.05135,
+    "equity_weight": 0.977971,
+    "debt_weight": 0.022029,
+    "wacc": 0.117021
+  },
+  "forecast": [
+    {
+      "year": 2026,
+      "revenue": 13137.6,
+      "ebit": 3809.904,
+      "nopat": 3009.82416,
+      "depreciation_amortisation": 622.380662,
+      "capex": 568.555915,
+      "net_working_capital": 758.998565,
+      "change_in_nwc": 208.998565,
+      "fcff": 2854.650342
+    },
+    {
+      "year": 2027,
+      "revenue": 15765.12,
+      "ebit": 4729.536,
+      "nopat": 3736.33344,
+      "depreciation_amortisation": 746.856795,
+      "capex": 682.267098,
+      "net_working_capital": 910.798278,
+      "change_in_nwc": 151.799713,
+      "fcff": 3649.123424
+    },
+    {
+      "year": 2028,
+      "revenue": 17341.632,
+      "ebit": 4855.65696,
+      "nopat": 3835.968998,
+      "depreciation_amortisation": 821.542474,
+      "capex": 750.493808,
+      "net_working_capital": 1001.878106,
+      "change_in_nwc": 91.079828,
+      "fcff": 3815.937837
+    },
+    {
+      "year": 2029,
+      "revenue": 18208.7136,
+      "ebit": 4552.1784,
+      "nopat": 3596.220936,
+      "depreciation_amortisation": 862.619598,
+      "capex": 788.018498,
+      "net_working_capital": 1051.972011,
+      "change_in_nwc": 50.093905,
+      "fcff": 3620.72813
+    },
+    {
+      "year": 2030,
+      "revenue": 18754.975008,
+      "ebit": 4313.644252,
+      "nopat": 3407.778959,
+      "depreciation_amortisation": 888.498186,
+      "capex": 811.659053,
+      "net_working_capital": 1083.531171,
+      "change_in_nwc": 31.55916,
+      "fcff": 3453.058931
+    }
+  ],
+  "limitations": [
+    "Terminal value represents 63.8% of enterprise value, so WACC and terminal growth are key model drivers.",
+    "The framework uses public data and analyst assumptions; it is a decision-support model, not investment advice.",
+    "For cyclical companies, current revenue and margins may not represent mid-cycle economics.",
+    "Company is marked cyclical; scenario analysis should be prioritised.",
+    "M&A or one-off items may distort historical ratios.",
+    "Revenue growth in 2023 is outside the normal validation range.",
+    "Revenue growth in 2025 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2023.",
+    "EBIT margin changed by more than 10 percentage points in 2025."
+  ],
+  "flags": [
+    "Company is marked cyclical; scenario analysis should be prioritised.",
+    "M&A or one-off items may distort historical ratios."
+  ],
+  "data_quality_flags": [
+    "Revenue growth in 2023 is outside the normal validation range.",
+    "Revenue growth in 2025 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2023.",
+    "EBIT margin changed by more than 10 percentage points in 2025."
+  ]
+}

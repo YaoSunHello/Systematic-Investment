@@ -1,0 +1,123 @@
+{
+  "company": {
+    "company_name": "Credo Technology Group Holding Ltd",
+    "ticker": "CRDO",
+    "exchange": "NASDAQ-GS",
+    "currency": "USD",
+    "sector": "Semiconductors",
+    "company_type": "High-growth AI connectivity semiconductor company",
+    "is_cyclical": false,
+    "high_share_based_compensation": true,
+    "material_mna_or_one_offs": false,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0001807794; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationDepletionAndAmortization, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=257.79, after_hours=258.18, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "AI-adjacent high-growth case; the supplied ~75% growth anchors year one and fades to a still-premium terminal path."
+    }
+  },
+  "summary": {
+    "valuation_method": "FCFF DCF",
+    "current_share_price": 257.79,
+    "fair_value_per_share": 75.396886,
+    "valuation_gap": -0.707526,
+    "recommendation": "Sell",
+    "confidence_score": 40,
+    "confidence_level": "Low"
+  },
+  "valuation_breakdown": {
+    "pv_explicit_fcff": 3471.523103,
+    "pv_terminal_value": 9555.63153,
+    "enterprise_value": 13027.154633,
+    "equity_value": 14192.106633,
+    "terminal_value_to_ev": 0.733516
+  },
+  "wacc": {
+    "cost_of_equity": 0.131,
+    "after_tax_cost_of_debt": 0.04675,
+    "equity_weight": 1.0,
+    "debt_weight": 0.0,
+    "wacc": 0.131
+  },
+  "forecast": [
+    {
+      "year": 2027,
+      "revenue": 2336.453,
+      "ebit": 841.12308,
+      "nopat": 714.954618,
+      "depreciation_amortisation": 60.6146,
+      "capex": 100.26888,
+      "net_working_capital": 630.84231,
+      "change_in_nwc": 270.14931,
+      "fcff": 405.151028
+    },
+    {
+      "year": 2028,
+      "revenue": 3387.85685,
+      "ebit": 1287.385603,
+      "nopat": 1094.277763,
+      "depreciation_amortisation": 87.89117,
+      "capex": 145.389877,
+      "net_working_capital": 914.721349,
+      "change_in_nwc": 283.879039,
+      "fcff": 752.900017
+    },
+    {
+      "year": 2029,
+      "revenue": 4404.213905,
+      "ebit": 1717.643423,
+      "nopat": 1459.99691,
+      "depreciation_amortisation": 114.258521,
+      "capex": 189.00684,
+      "net_working_capital": 1189.137754,
+      "change_in_nwc": 274.416405,
+      "fcff": 1110.832186
+    },
+    {
+      "year": 2030,
+      "revenue": 5285.056686,
+      "ebit": 2061.172108,
+      "nopat": 1751.996291,
+      "depreciation_amortisation": 137.110226,
+      "capex": 226.808208,
+      "net_working_capital": 1426.965305,
+      "change_in_nwc": 237.827551,
+      "fcff": 1424.470758
+    },
+    {
+      "year": 2031,
+      "revenue": 5919.263488,
+      "ebit": 2249.320126,
+      "nopat": 1911.922107,
+      "depreciation_amortisation": 153.563453,
+      "capex": 254.025193,
+      "net_working_capital": 1598.201142,
+      "change_in_nwc": 171.235837,
+      "fcff": 1640.22453
+    }
+  ],
+  "limitations": [
+    "Terminal value represents 73.4% of enterprise value, so WACC and terminal growth are key model drivers.",
+    "The framework uses public data and analyst assumptions; it is a decision-support model, not investment advice.",
+    "High-growth or early-stage companies require scenario-weighted valuation because distant cash flows dominate value.",
+    "Stock-based compensation is material and should be reviewed separately.",
+    "Revenue growth in 2023 is outside the normal validation range.",
+    "Revenue growth in 2025 is outside the normal validation range.",
+    "Revenue growth in 2026 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2025.",
+    "EBIT margin changed by more than 10 percentage points in 2026.",
+    "Diluted shares changed by more than 20% in 2023."
+  ],
+  "flags": [
+    "Stock-based compensation is material and should be reviewed separately."
+  ],
+  "data_quality_flags": [
+    "Revenue growth in 2023 is outside the normal validation range.",
+    "Revenue growth in 2025 is outside the normal validation range.",
+    "Revenue growth in 2026 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2025.",
+    "EBIT margin changed by more than 10 percentage points in 2026.",
+    "Diluted shares changed by more than 20% in 2023."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "company": {
+    "company_name": "Seagate Technology Holdings plc",
+    "ticker": "STX",
+    "exchange": "NASDAQ-GS",
+    "currency": "USD",
+    "sector": "Technology Hardware",
+    "company_type": "Cyclical storage hardware manufacturer",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": false,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0001137789; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationDepletionAndAmortization, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=910.34, after_hours=914.4703, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "Momentum/extended setup; base case gives benefit for near-term storage demand but fades toward mid-cycle margins."
+    }
+  },
+  "history": [
+    {
+      "year": 2021,
+      "revenue": 10681.0,
+      "ebit": 1492.0,
+      "tax_expense": 34.0,
+      "pretax_income": 1348.0,
+      "depreciation_amortisation": 397.0,
+      "capex": 498.0,
+      "net_working_capital": -106.0,
+      "debt": 5139.0,
+      "cash": 1209.0,
+      "diluted_shares": 245.0
+    },
+    {
+      "year": 2022,
+      "revenue": 11661.0,
+      "ebit": 1955.0,
+      "tax_expense": 30.0,
+      "pretax_income": 1679.0,
+      "depreciation_amortisation": 451.0,
+      "capex": 381.0,
+      "net_working_capital": 447.0,
+      "debt": 5646.0,
+      "cash": 615.0,
+      "diluted_shares": 224.0
+    },
+    {
+      "year": 2023,
+      "revenue": 7384.0,
+      "ebit": -342.0,
+      "tax_expense": 33.0,
+      "pretax_income": -496.0,
+      "depreciation_amortisation": 513.0,
+      "capex": 316.0,
+      "net_working_capital": -410.0,
+      "debt": 5451.0,
+      "cash": 786.0,
+      "diluted_shares": 207.0
+    },
+    {
+      "year": 2024,
+      "revenue": 6551.0,
+      "ebit": 452.0,
+      "tax_expense": 110.0,
+      "pretax_income": 445.0,
+      "depreciation_amortisation": 264.0,
+      "capex": 254.0,
+      "net_working_capital": -646.0,
+      "debt": 5674.0,
+      "cash": 1358.0,
+      "diluted_shares": 212.0
+    },
+    {
+      "year": 2025,
+      "revenue": 9097.0,
+      "ebit": 1890.0,
+      "tax_expense": 44.0,
+      "pretax_income": 1513.0,
+      "depreciation_amortisation": 251.0,
+      "capex": 265.0,
+      "net_working_capital": 114.0,
+      "debt": 4995.0,
+      "cash": 891.0,
+      "diluted_shares": 217.0
+    }
+  ],
+  "market": {
+    "current_share_price": 910.34,
+    "beta": 1.2,
+    "risk_free_rate": 0.041,
+    "equity_risk_premium": 0.05,
+    "pre_tax_cost_of_debt": 0.062,
+    "marginal_tax_rate": 0.15,
+    "market_cap": 197543.78
+  },
+  "assumptions": {
+    "forecast_years": 5,
+    "revenue_growth": [
+      0.25,
+      0.14,
+      0.08,
+      0.04,
+      0.02
+    ],
+    "ebit_margin": [
+      0.24,
+      0.25,
+      0.23,
+      0.21,
+      0.2
+    ],
+    "tax_rate": 0.15,
+    "depreciation_amortisation_to_sales": 0.027592,
+    "capex_to_sales": 0.02913,
+    "nwc_to_sales": 0.012532,
+    "terminal_growth_rate": 0.02
+  }
+}

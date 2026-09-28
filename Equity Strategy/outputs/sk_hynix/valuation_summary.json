@@ -1,0 +1,123 @@
+{
+  "company": {
+    "company_name": "SK hynix Inc.",
+    "ticker": "SKHYV",
+    "exchange": "NASDAQ Global Select Market",
+    "currency": "USD per ADR",
+    "sector": "Semiconductors",
+    "company_type": "Cyclical AI memory semiconductor manufacturer",
+    "is_cyclical": true,
+    "high_share_based_compensation": false,
+    "material_mna_or_one_offs": true,
+    "data_sources": {
+      "financial_statements": "Published annual trend data and 2025 results summaries; financials entered in USD billions.",
+      "market_data": "July 10, 2026 SK Hynix ADR debut reports; 10 ADRs represent one common share.",
+      "risk_free_rate": "Approximate current USD 10-year Treasury assumption.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption.",
+      "forecast_basis": "Base case anchored to Q1 2026 run-rate, AI/HBM demand commentary, and moderation after 2026."
+    }
+  },
+  "summary": {
+    "valuation_method": "FCFF DCF",
+    "current_share_price": 170.0,
+    "fair_value_per_share": 76.273787,
+    "valuation_gap": -0.551331,
+    "recommendation": "Sell",
+    "confidence_score": 45,
+    "confidence_level": "Low"
+  },
+  "valuation_breakdown": {
+    "pv_explicit_fcff": 189.743772,
+    "pv_terminal_value": 349.60613,
+    "enterprise_value": 539.349903,
+    "equity_value": 568.849903,
+    "terminal_value_to_ev": 0.648199
+  },
+  "wacc": {
+    "cost_of_equity": 0.1145,
+    "after_tax_cost_of_debt": 0.0429,
+    "equity_weight": 0.980663,
+    "debt_weight": 0.019337,
+    "wacc": 0.113115
+  },
+  "forecast": [
+    {
+      "year": 2026,
+      "revenue": 140.876,
+      "ebit": 87.34312,
+      "nopat": 68.127634,
+      "depreciation_amortisation": 21.1314,
+      "capex": 36.62776,
+      "net_working_capital": 11.27008,
+      "change_in_nwc": 5.77008,
+      "fcff": 46.861194
+    },
+    {
+      "year": 2027,
+      "revenue": 183.1388,
+      "ebit": 102.557728,
+      "nopat": 79.995028,
+      "depreciation_amortisation": 27.47082,
+      "capex": 47.616088,
+      "net_working_capital": 14.651104,
+      "change_in_nwc": 3.381024,
+      "fcff": 56.468736
+    },
+    {
+      "year": 2028,
+      "revenue": 205.115456,
+      "ebit": 102.557728,
+      "nopat": 79.995028,
+      "depreciation_amortisation": 30.767318,
+      "capex": 53.330019,
+      "net_working_capital": 16.409236,
+      "change_in_nwc": 1.758132,
+      "fcff": 55.674195
+    },
+    {
+      "year": 2029,
+      "revenue": 217.422383,
+      "ebit": 97.840073,
+      "nopat": 76.315257,
+      "depreciation_amortisation": 32.613358,
+      "capex": 56.52982,
+      "net_working_capital": 17.393791,
+      "change_in_nwc": 0.984554,
+      "fcff": 51.41424
+    },
+    {
+      "year": 2030,
+      "revenue": 223.945055,
+      "ebit": 94.056923,
+      "nopat": 73.3644,
+      "depreciation_amortisation": 33.591758,
+      "capex": 58.225714,
+      "net_working_capital": 17.915604,
+      "change_in_nwc": 0.521814,
+      "fcff": 48.20863
+    }
+  ],
+  "limitations": [
+    "Terminal value represents 64.8% of enterprise value, so WACC and terminal growth are key model drivers.",
+    "The framework uses public data and analyst assumptions; it is a decision-support model, not investment advice.",
+    "For cyclical companies, current revenue and margins may not represent mid-cycle economics.",
+    "Company is marked cyclical; scenario analysis should be prioritised.",
+    "M&A or one-off items may distort historical ratios.",
+    "Revenue growth in 2024 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2022.",
+    "EBIT margin changed by more than 10 percentage points in 2023.",
+    "EBIT margin changed by more than 10 percentage points in 2024.",
+    "EBIT margin changed by more than 10 percentage points in 2025."
+  ],
+  "flags": [
+    "Company is marked cyclical; scenario analysis should be prioritised.",
+    "M&A or one-off items may distort historical ratios."
+  ],
+  "data_quality_flags": [
+    "Revenue growth in 2024 is outside the normal validation range.",
+    "EBIT margin changed by more than 10 percentage points in 2022.",
+    "EBIT margin changed by more than 10 percentage points in 2023.",
+    "EBIT margin changed by more than 10 percentage points in 2024.",
+    "EBIT margin changed by more than 10 percentage points in 2025."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "company": {
+    "company_name": "Credo Technology Group Holding Ltd",
+    "ticker": "CRDO",
+    "exchange": "NASDAQ-GS",
+    "currency": "USD",
+    "sector": "Semiconductors",
+    "company_type": "High-growth AI connectivity semiconductor company",
+    "is_cyclical": false,
+    "high_share_based_compensation": true,
+    "material_mna_or_one_offs": false,
+    "data_sources": {
+      "financial_statements": "SEC companyfacts API CIK 0001807794; values converted to USD millions; revenue tag=RevenueFromContractWithCustomerExcludingAssessedTax, EBIT tag=OperatingIncomeLoss, D&A tag=DepreciationDepletionAndAmortization, capex tag=PaymentsToAcquirePropertyPlantAndEquipment.",
+      "market_data": "Nasdaq quote API, close=257.79, after_hours=258.18, close_timestamp=Closed at Jul 10, 2026 4:00 PM ET.",
+      "risk_free_rate": "USD 10-year Treasury assumption used in framework: 4.1%.",
+      "equity_risk_premium": "Generic developed-market equity risk premium assumption: 5.0%.",
+      "forecast_basis": "AI-adjacent high-growth case; the supplied ~75% growth anchors year one and fades to a still-premium terminal path."
+    }
+  },
+  "history": [
+    {
+      "year": 2022,
+      "revenue": 106.477,
+      "ebit": -21.968,
+      "tax_expense": -0.037,
+      "pretax_income": -22.213,
+      "depreciation_amortisation": 4.793,
+      "capex": 17.58,
+      "net_working_capital": 42.591,
+      "debt": 0.0,
+      "cash": 259.322,
+      "diluted_shares": 88.398
+    },
+    {
+      "year": 2023,
+      "revenue": 184.194,
+      "ebit": -21.235,
+      "tax_expense": -1.367,
+      "pretax_income": -17.914,
+      "depreciation_amortisation": 9.514,
+      "capex": 21.713,
+      "net_working_capital": 73.678,
+      "debt": 0.0,
+      "cash": 108.583,
+      "diluted_shares": 146.556
+    },
+    {
+      "year": 2024,
+      "revenue": 192.97,
+      "ebit": -37.058,
+      "tax_expense": 5.624,
+      "pretax_income": -22.745,
+      "depreciation_amortisation": 13.771,
+      "capex": 15.652,
+      "net_working_capital": 75.642,
+      "debt": 0.0,
+      "cash": 66.942,
+      "diluted_shares": 155.091
+    },
+    {
+      "year": 2025,
+      "revenue": 436.775,
+      "ebit": 37.124,
+      "tax_expense": 2.687,
+      "pretax_income": 54.87,
+      "depreciation_amortisation": 21.938,
+      "capex": 36.061,
+      "net_working_capital": 174.485,
+      "debt": 0.0,
+      "cash": 236.328,
+      "diluted_shares": 181.158
+    },
+    {
+      "year": 2026,
+      "revenue": 1335.116,
+      "ebit": 445.005,
+      "tax_expense": 3.156,
+      "pretax_income": 475.435,
+      "depreciation_amortisation": 34.637,
+      "capex": 57.296,
+      "net_working_capital": 360.693,
+      "debt": 0.0,
+      "cash": 1164.952,
+      "diluted_shares": 188.232
+    }
+  ],
+  "market": {
+    "current_share_price": 257.79,
+    "beta": 1.8,
+    "risk_free_rate": 0.041,
+    "equity_risk_premium": 0.05,
+    "pre_tax_cost_of_debt": 0.055,
+    "marginal_tax_rate": 0.15,
+    "market_cap": 48524.327
+  },
+  "assumptions": {
+    "forecast_years": 5,
+    "revenue_growth": [
+      0.75,
+      0.45,
+      0.3,
+      0.2,
+      0.12
+    ],
+    "ebit_margin": [
+      0.36,
+      0.38,
+      0.39,
+      0.39,
+      0.38
+    ],
+    "tax_rate": 0.15,
+    "depreciation_amortisation_to_sales": 0.025943,
+    "capex_to_sales": 0.042915,
+    "nwc_to_sales": 0.27,
+    "terminal_growth_rate": 0.035
+  }
+}
